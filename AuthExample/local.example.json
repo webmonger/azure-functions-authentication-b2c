@@ -1,0 +1,21 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "OpenIdConnectConfig": {
+    "Audience": "",
+    "ClientID": "",
+    "Authority": "",
+    "ValidIssuers": [
+      "https://login.microsoftonline.com/{TennantDomain}/",
+      "https://login.microsoftonline.com/{TennantDomain}/v2.0",
+      "https://login.windows.net/{TennantDomain}/",
+      "https://login.microsoft.com/{TennantDomain}/",
+      "https://sts.windows.net/{TennantId}/",
+      "https://{B2CName}.b2clogin.com/{TennantId}/",
+      "https://{B2CName}.b2clogin.com/{TennantId}/v2.0/"
+    ]
+  }
+}
